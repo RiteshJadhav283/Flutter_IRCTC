@@ -58,5 +58,21 @@ migrate_working_dir/
 # Coverage
 coverage/
 
+# Firebase & Secrets
+**/google-services.json
+**/GoogleService-Info.plist
+**/firebase_options.dart
+.env
+.env.*
+*.env
+
+# Keystores & Signing
+*.jks
+*.keystore
+**/key.properties
+*.p12
+*.pem
+
 # Exceptions to above rules
 !**/android/gradle/wrapper/gradle-wrapper.jar
+
